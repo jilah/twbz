@@ -38,9 +38,6 @@
 <main>
 <h1>Twibbon Generator</h1>
 <p>Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai.</p>
-
-<p>We operate and maintain a number of key aspects of the DNS, including the root zone, and
-    the <span class="domain">.int</span> and <span class="domain">.arpa</span> domains.</p>
  
 <p><b>Unggah Gambar:</b> 
 <br/><input type="file" accept="image/*" onchange="loadFile(event)"></p>
@@ -53,25 +50,9 @@ naturally fit into a specific country’s top-level domain. For example, <span c
 <p><b>Unggah Bingkai:</b>
 <br/><input type='file' accept="image/*" onchange="loadTemplate(event)"></p>
 
-<p><a href="/domains/idn-tables">IDN Practices Repository</a><br/>
-To help foster the deployment of Internationalised Domain Names (IDNs), a repository of &ldquo;IDN tables&rdquo; which document the permissable characters for different languages and scripts provided for registration by different top-level domain registries. The repository is informative, and designed for information sharing.</p>
+<p><button class="button" onclick="gen()">Preview</button></p>
 
-<p><a href="/dnssec">Root Key Signing Key</a><br/>
-The Root Key Signing Key provides verification of the DNSSEC-signed root zone.</p>
-
-<p><a href="/domains/special">Special Purpose Domains</a><br/>
-A number of special domains are reserved or managed for demonstration purposes, or for future use.</p>
-
-<h2>IANA Reports</h2>
-<ul>
-<li><a href="/reports/2007/testetal-report-01aug2007.html">Report on Delegation of Eleven Evaluative Internationalised Top-Level Domains</a> (2007-08-01)</li>
-</ul>
-    
-<p><i>
-Record last updated 2020-04-02.
-Registration date 2007-10-19.
-</i></p>
-
+<!--
 <p>
 <div align=right>
 <a href="#" class="button arrow">Root Server Website</a>
@@ -84,9 +65,9 @@ Registration date 2007-10-19.
 </div>
 </p>
 
-
 <button class="button" onclick="gen()">Preview</button>
-<p id="count"></p>
+<span class="domain" id="count"></span>
+-->
 
 <!-- Result -->
 <div id="custom-modal" class="custom-modal">
