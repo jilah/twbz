@@ -1,7 +1,7 @@
 (function($) {
             "use strict";
                 $(document).ready(function() {
-                        $('.button green arrow').on('click', function() {
+                        $('.button').on('click', function() {
                         $('body').addClass("modal-open");
                     });
                     $('.close-modal').on('click', function() {
