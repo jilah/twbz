@@ -1,6 +1,4 @@
-/* modals.js */
-
-        (function($) {
+(function($) {
             "use strict";
                 $(document).ready(function() {
                         $('.button green arrow').on('click', function() {
