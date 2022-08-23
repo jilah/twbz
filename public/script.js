@@ -63,5 +63,5 @@ var loadFile = function(event) {
 
     var dwn = document.getElementById('btndownload');
         dwn.onclick = function(){
-        download(canvas, 'image.png');
+        download(canvas, 'mer.cyclic.app.png');
     };
