@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G46PR7ZWCF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G46PR7ZWCF');
+</script>
+
+	<title>Twibbon Generator</title>
+
+	<meta charset="utf-8" />
+        <meta name="google-site-verification" content="FqPfh2G88A5E3zQZUHpHf-sklR4HCHPxyjICgJrdRr8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Unggah karya seni Anda dengan latar belakang transparan sebagai File .PNG terpisah, dengan ukuran kurang dari 1 MB.">
+        <meta property="og:title" content="Twibbon Generator" />
+        <meta content="https://mer.cyclic.app/og.png" property="og:image">
+
+	<link rel="stylesheet" href="/main.css"/>
+        <link rel="stylesheet" href="/modals.css"/>
+
+	<link rel="shortcut icon" type="/favicon.ico"/>	
+        <style>img,canvas{width:100%;height:auto;}</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<header>
+    <div id="header">
+        <div id="logo">
+         <!--<a href="/"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;"/></a>-->
+         <a href="/" style="color:black;"><strong>MER.CYCLIC.APP</strong></a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Domains</a></li>
+                <li><a href="#">Protocols</a></li>
+                <li><a href="#">Numbers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div id="body">
+<article class="hemmed sidenav">
+
+<main>
+<h1>Twibbon Generator</h1>
+<p>Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai.</p>
+<p>Unggah karya seni Anda dengan latar belakang transparan sebagai File .PNG terpisah, dengan ukuran kurang dari 1 MB.</p>
+<p><b>Unggah Gambar:</b> 
+<br/><input type="file" accept="image/*" onchange="loadFile(event)"></p>
+
+<p><b>Unggah Bingkai:</b>
+<br/><input type='file' accept="image/*" onchange="loadTemplate(event)"></p>
+
+<p><button class="button" onclick="gen()">Preview</button></p>
+
+<!--
+<p>
+<div align=right>
+<a href="#" class="button arrow">Root Server Website</a>
+</div>
+</p>
+
+<p>		    
+<div align=right>
+<a href="#" class="button green arrow">Root Zone Management Login</a>
+</div>
+</p>
+
+<button class="button" onclick="gen()">Preview</button>
+<span class="domain" id="count"></span>
+-->
+
+<!-- Result -->
+<div id="custom-modal" class="custom-modal">
+<div class="custom-modal-dialog">
+<div class="custom-modal-content">
+<span class="close-modal">X</span>
+<div class="custom-modal-body">
+<div class="custom-modal-inner">
+<!-- Contetn here -->
+<h4>Well Done! </h4>
+<p>
+<img class="res" id="avatar" style="display: none" src="/preview.jpg"/>
+<img class="res" id="bingkai" style="display: none" src="/preview.jpg"/>
+<canvas id="canvas"></canvas>
+</p>
+<p>
+<button class="button green arrow" id="btndownload">Unduh</button>
+<button class="button red arrow" id="cancel" onclick="location.reload()">Hapus</button> 
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</article>
+</div>
+
+<footer>
+<div id="footer">
+        
+<div id="custodian">
+User online: <span class="domain" id="count"></span>
+</div>
+
+<div id="legalnotice">
+<ul>
+<li><a href="https://www.facebook.com/bungferry.wa">Privacy Policy</a></li>
+<li><a href="https://www.facebook.com/profile.php?id=100059526018762">Terms of Service</a></li>
+</ul>
+</div>
+
+</div>
+</footer>
+
+
+<script src="/globe.js"></script>
+<script src="/modals.js"></script>
+<script src="/script.js"></script>
+</body>
+</html>
